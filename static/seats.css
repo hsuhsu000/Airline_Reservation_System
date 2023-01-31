@@ -1,0 +1,196 @@
+
+*{
+    font-size: 13px;
+    font-family: "Gill Sans", sans-serif;;
+}
+
+.navbar1 {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 80px;
+  }
+.navbar2 {
+    overflow: hidden;
+    position: fixed;
+    top: 50px;
+    width: 100%;
+    height: auto;
+}
+
+.block{
+    display: inline-block;
+}
+
+/* .currentPassenger{
+    background-color: orange;
+} */
+
+
+.seat.available{
+    background-image: url('/static/seat-available.png');
+    cursor: pointer;
+}
+
+.seat.unavailable{
+    background-image: url('/static/seat-unavailable.png');
+    cursor: not-allowed;
+}
+
+.seat.available.occupied{
+    background-image: url('/static/seat-occupied-by-adult.png');
+}
+
+
+.seat{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-size: cover;
+    margin-right: 3px; 
+    margin-left:3px;
+    
+}
+
+#rhs{
+    display: inline-block;
+    /* position: fixed; */
+    /* top: 110px;  */
+    right: 0;
+    margin-top: 120px;
+    background-color: #f2f2f2;
+}
+#lhs{
+    display: inline-block;
+    /* background-color:aqua; */
+    vertical-align: top;
+    margin-top: 150px;
+}
+#center{
+    display: inline-block;
+    /* background-color:pink; */
+    vertical-align: top;
+    margin-top: 180px;
+    padding-left: 20px;
+}
+
+#passengerList{
+    /* background-color: yellow; */
+    cursor: pointer;
+}
+
+#b_span1{
+    padding-left: 15px;
+    font-weight: bold;
+}
+
+#b_span2{
+    padding-left: 40px;
+}
+
+.extra,.upfront,.regular,.extra2, .rearstandard{
+    font-size: 14px;
+    border: 1px solid #fff;
+    border-bottom: none;
+    float: none;
+    color: white;
+    margin-left: 10px;
+    margin-right: 30px;
+}
+
+#link a{
+    color: rgb(255,102,0);
+    text-decoration: none;
+}
+
+#outbound_info{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 2px 5px 15px;
+    border-radius: 5px;
+    
+    background-color: antiquewhite;
+    padding: 10px;
+}
+
+#cross{
+    margin-top: 10px;
+     float:right;  cursor: pointer;
+}
+
+
+.currentPassenger{
+    background-image: url('/static/control-icon-play-hovered.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 15px;
+}
+
+#heading{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.bag_info ul{
+    list-style: none;
+}
+
+.bag_info{
+    font-weight: normal;
+}
+
+.two_bags_info{
+    color: white;
+    border: white solid 1px;
+    border-top: none;
+    border-bottom: none;
+    margin-left: 10px;
+    margin-right: 30px;
+}
+
+#price_breakdown{
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #f60;
+}
+
+.price_breakdown{
+    color: white;
+    height: 100%;
+    width: 400px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+}
+
+td{
+    padding-right: 100px;
+}
+.skipSeat{
+    color: white;
+    background-color: #f60;
+    width: 100px;
+    height: 30px;
+    padding-top: 5px;
+    margin-top: 10px;
+    text-align: center;
+}
+.skipSeat2{
+    color: white;
+    background-color: #f60;
+    width: 100px;
+    height: 30px;
+    padding-top: 5px;
+    margin-top: 10px;
+    text-align: center;
+    float: right;
+}
